@@ -104,7 +104,6 @@ tfmodel = converter.convert()
 open(tflite_model_path, "wb").write(tfmodel)
 # Done ... 
 
-
 # Test loading the saved keras model
 kmodel_ = tf.keras.models.load_model(keras_model_path)
 
