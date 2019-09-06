@@ -18,6 +18,11 @@ The tutorial section consists of 2 parts
   * This is a simple tutorial with more details on how to use the TFLite in android, as the official doc is lacking detail.
 ---
 
+I tested this on
+* Python 3.5
+* Tensorflow 1.14.0
+* Pytorch 1.1.0
+
 For this tutorial a simple convolutional model is used. 
 For my project I used it for Image synthesis.  
 However, It should be straight forward to implement it for other tasks like classification, recognition, and etc.
